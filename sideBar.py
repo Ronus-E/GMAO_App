@@ -12,6 +12,7 @@ class SideBar(tk.CTkFrame):
         menus = [
             ["Acceuil", page_acceuil],
             ["Matériels", open_materiels]
+            #["BT",Bon_de_travails]
         ]
 
         for label, command in menus:
